@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-sales-api",
+  "version": "1.0.0",
+  "description": "Sales API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luischang/nodejs-sales-api.git"
+  },
+  "keywords": [
+    "sales",
+    "api",
+    "express",
+    "mongodb",
+    "mysql"
+  ],
+  "author": "Luis Chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luischang/nodejs-sales-api/issues"
+  },
+  "homepage": "https://github.com/luischang/nodejs-sales-api#readme"
+}
