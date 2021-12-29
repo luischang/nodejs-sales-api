@@ -4,6 +4,8 @@
   "description": "Sales API",
   "main": "app.js",
   "scripts": {
+    "start": "node src/index",
+    "startdev": "nodemon src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +26,11 @@
   },
   "homepage": "https://github.com/luischang/nodejs-sales-api#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
     "g": "^2.0.1",
+    "mongoose": "^6.1.4",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.15"
   }
 }
